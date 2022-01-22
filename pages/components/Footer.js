@@ -7,17 +7,17 @@ export default function Footer(){
         <footer className={styles.footer}>
         <ul className={styles.social_list}>
           <li>
-            <a href="https://www.instagram.com/davimateus1/" target="_blank">
+            <a href="https://www.instagram.com/davimateus1/" target="_blank" rel="noreferrer">
               <BsInstagram />
             </a>
           </li>
           <li>
-            <a href="https://github.com/davimateus1" target="_blank">
+            <a href="https://github.com/davimateus1" target="_blank" rel="noreferrer">
               <BsGithub />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/davimateusg/" target="_blank">
+            <a href="https://www.linkedin.com/in/davimateusg/" target="_blank" rel="noreferrer">
               <BsLinkedin />
             </a>
           </li>
