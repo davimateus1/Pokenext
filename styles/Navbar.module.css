@@ -37,7 +37,7 @@
 }
 
 .link_items a:hover {
-    color: red;
+    color: #e33d33;
     text-decoration: none;
     border-color: #fff;
 }

@@ -27,7 +27,7 @@
 }
 
 .social_list svg:hover{
-    color: red;
+    color: #e33d33;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
@@ -38,5 +38,5 @@
 
 .copyright span{
     font-weight: bold;
-    color: red;
+    color: #e33d33;
 }
