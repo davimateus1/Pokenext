@@ -7,7 +7,7 @@ export default function Layout({ children }){
     return (
         <>
             <Head>
-                <link rel="shortcurt icon" href="/images/favicon.ico" />
+            <link rel="shortcurt icon" href="/images/favicon.ico" />
                 <title>PokeNext</title>
             </Head>
             <Navbar />
