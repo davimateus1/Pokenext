@@ -1,5 +1,4 @@
 .pokemon_container {
-    margin-top: 5%;
     text-align: center;
 }
 
@@ -134,4 +133,42 @@
 .data_height {
     border-right: 1px solid #ccc;
 }
-  
+
+.moves {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moves ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    width: 80vw;
+    height: auto;
+}
+
+.moves li {
+    width: 15%;
+    padding: 0.6em 1em;
+    color: #fff;
+    background-color: #e33d33;
+    margin-right: 0.5em;
+    margin-bottom: 0.2em;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.moves li:hover {
+  color: #e33d33;
+  background-color: black;
+  border: 3px solid #aab;
+}

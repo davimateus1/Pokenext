@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import styles from '../../styles/Pokemon.module.css'
+import styles from "../../styles/Pokemon.module.css";
 
 export const getStaticPaths = async () => {
   const maxPokemons = 252;
@@ -69,7 +69,16 @@ export default function Pokemon({ pokemon }) {
           <h4>Peso:</h4>
           <p>{pokemon.weight / 10} kg</p>
         </div>
+        <br/>
       </div>
+        <div className={styles.moves}>
+          <h3>Golpes:</h3>
+          <ul>
+            {pokemon.moves.map((item, index) => (
+              <li key={index}>{item.move.name}</li>
+            ))}
+          </ul>
+        </div>
     </div>
   );
 }
