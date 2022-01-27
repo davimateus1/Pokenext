@@ -41,7 +41,19 @@
     color: #e33d33;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (width: 768px) {
+    .footer{
+        background-color: #333;
+        color: #fff;
+        padding: 3em;
+        text-align: center;
+        border-top:3 px solid #111;
+        height: 300px;
+        margin-top: 2em;
+    }
+  }
+
+  @media screen and (width: 1024px) {
     .footer{
         background-color: #333;
         color: #fff;
