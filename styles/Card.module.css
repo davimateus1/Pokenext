@@ -50,3 +50,21 @@
     background-color: #e33d33;
     color: #fff;
 }
+
+@media screen and (max-width: 992px) {
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2em 1em;
+        margin-bottom: 2em;
+        width: 70%;
+        border-radius: 1em;
+        border: 2px solid #e33d33;
+        box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+        background-color: #333;
+        color: white;
+        transition: all 0.3s;
+    }
+  }

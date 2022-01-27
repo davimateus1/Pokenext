@@ -18,3 +18,23 @@
     margin: 0 auto .5em;
     line-height: 1.4;
 }
+
+@media screen and (max-width: 992px) {
+
+    .about h1 {
+        font-size: 1.4em;
+        background-color: #333;
+        color: #fff;
+        padding: 0.3em;
+        margin: 0.8em auto;
+        width: 300px;
+        border-radius: 10px;
+    }
+
+
+    .about p {
+        max-width: 300px;
+        margin: 0 auto .5em;
+        line-height: 1.4;
+    }
+  }

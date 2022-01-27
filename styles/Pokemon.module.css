@@ -172,3 +172,34 @@
   background-color: black;
   border: 3px solid #aab;
 }
+
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    background-color: #333;
+    color: #fff;
+    padding:.3em 1em;
+    margin: 0.8em auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.moves li {
+  width: 30%;
+  flex-direction: column;
+  padding: 0.6em 1em;
+  color: #fff;
+  background-color: #e33d33;
+  margin-right: 0.5em;
+  margin-bottom: 0.2em;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+}
