@@ -1,34 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+ <img alt="move.it" title="move.it" src="https://user-images.githubusercontent.com/66326378/151438603-5f69c3e5-dd54-4d9b-8dde-8b60c905efff.png" height=100px  />
+</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-deploy-do-projeto">Deploy do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">Como executar</a>
+</p>
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<h2>🖥️ Tela principal: </h2>
+<p align="center">
+  <img alt="Happy" src="https://user-images.githubusercontent.com/66326378/151438720-bdaba8a7-6e03-4a9c-8472-ebd985076553.png" width="100%">
+</p>
+<h2>🖥️ Tela de detalhes de cada pokemon: </h2>
+<p align="center">
+  <img alt="Happy" src="https://user-images.githubusercontent.com/66326378/151438849-203cbbef-18c4-4cfe-96bd-3409723bb656.png" width="100%">
+</p>
+<h2>🖥️ Tela de descrição do projeto: </h2>
+<p align="center">
+  <img alt="Happy" src="https://user-images.githubusercontent.com/66326378/151438963-69f7d27d-9ab2-4035-9e12-97788e70e964.png" width="100%">
+</p>
+<h2>🖥️ Tela de contatos: </h2>
+<p align="center">
+  <img alt="Happy" src="https://user-images.githubusercontent.com/66326378/151439123-9d3c034d-56b4-4be9-8307-b4d39ae28e2d.png" width="100%">
+</p>
+<h2>🖥️ Telas responsivas: </h2>
+<p float="left" align="center">
+  <img src="https://user-images.githubusercontent.com/66326378/151440432-949e8409-53fe-44c5-826d-289c5e34adf3.jpg" width="23%" />
+  <img src="https://user-images.githubusercontent.com/66326378/151440430-c37deea0-a4d5-4d31-83f7-7dc155a1bc72.jpg" width="23%" /> 
+  <img src="https://user-images.githubusercontent.com/66326378/151440427-8e956435-bb06-4155-b24a-20c7c3a49ea0.jpg" width="23%" />
+  <img src="https://user-images.githubusercontent.com/66326378/151440420-dd7b8e80-bea5-494c-a79a-970fcaaf4fc4.jpg" width="23%" />
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## ✨ Tecnologias
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [ReactJS](https://reactjs.org)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [NextJS](https://nextjs.org/)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [PokeAPI](https://pokeapi.co/)
 
-## Learn More
+<br>
 
-To learn more about Next.js, take a look at the following resources:
+## 💻 Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<p align="center">
+O Pokenext é inspirado na Pokédex, nessa plataforma temos a listagem de vários pokémons e seus principais dados, esses dados são resgatados através da PokeAPI, que é uma API de pokémons que tem todos eles, desde a primeira geração até a última, e também, contém diversas informações dos pokémons, tais como: vida, força, tipos, peso, altura e entre diversos outros. Esta aplicação foi construida no intuito de praticar e conhecer melhor o famoso Framework de React, o NextJS. Sinta-se a vontade para explorar todos os pokémons da plataforma!
+</p>
+ 
+<br> 
+ 
+## 🚀 Deploy do Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Você pode ver como o PokeNext funciona através [desse link](https://pokenext-tau.vercel.app/).
 
-## Deploy on Vercel
+<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Como executar
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Clone o repositório
+- Instale o [NPM](https://www.npmjs.com)
+- Instale as dependências com `npm install` no terminal
+- Inicie o projeto com `npm run dev` e após isso abra o `localhost:3000` no seu navegador
+- Fique a vontade para explorar e testar as funcionalidades do projeto
+
+---
+
+<h4 align="center">
+  Feito por Davi Mateus no curso de NextJS do <a href="https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&index=1">Hora de Codar.</a>
+</h4>
