@@ -27,12 +27,17 @@
 <p align="center">
   <img alt="Happy" src="https://user-images.githubusercontent.com/66326378/151439123-9d3c034d-56b4-4be9-8307-b4d39ae28e2d.png" width="100%">
 </p>
+<h2>🖥️ Tela de erro: </h2>
+<p align="center">
+  <img alt="Happy" src="https://user-images.githubusercontent.com/66326378/151469024-a311b9c7-de84-45c9-918b-182da08c0382.png" width="100%">
+</p>
 <h2>🖥️ Telas responsivas: </h2>
 <p float="left" align="center">
-  <img src="https://user-images.githubusercontent.com/66326378/151440432-949e8409-53fe-44c5-826d-289c5e34adf3.jpg" width="23%" />
-  <img src="https://user-images.githubusercontent.com/66326378/151440430-c37deea0-a4d5-4d31-83f7-7dc155a1bc72.jpg" width="23%" /> 
-  <img src="https://user-images.githubusercontent.com/66326378/151440427-8e956435-bb06-4155-b24a-20c7c3a49ea0.jpg" width="23%" />
-  <img src="https://user-images.githubusercontent.com/66326378/151440420-dd7b8e80-bea5-494c-a79a-970fcaaf4fc4.jpg" width="23%" />
+  <img src="https://user-images.githubusercontent.com/66326378/151440432-949e8409-53fe-44c5-826d-289c5e34adf3.jpg" width="18%" />
+  <img src="https://user-images.githubusercontent.com/66326378/151440430-c37deea0-a4d5-4d31-83f7-7dc155a1bc72.jpg" width="18%" /> 
+  <img src="https://user-images.githubusercontent.com/66326378/151440427-8e956435-bb06-4155-b24a-20c7c3a49ea0.jpg" width="18%" />
+  <img src="https://user-images.githubusercontent.com/66326378/151440420-dd7b8e80-bea5-494c-a79a-970fcaaf4fc4.jpg" width="18%" />
+  <img src="https://user-images.githubusercontent.com/66326378/151468990-c3e997c1-bdb0-4145-b9f3-4d14dbef2edb.png" width="18%" />
 </p>
 
 <br>
