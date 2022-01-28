@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Card from "../components/Card";
+import Head from "next/head";
 
 export async function getStaticProps() {
   const maxPokemons = 252;
@@ -24,6 +25,10 @@ export async function getStaticProps() {
 export default function Home({ pokemons }) {
   return (
     <>
+     <Head>
+            <link rel="shortcurt icon" href="/images/favicon.ico" />
+                <title>PokeNext</title>
+      </Head>
       <div className={styles.title_container}>
         <h1 className={styles.title}>
           Poke<span>Next</span>
