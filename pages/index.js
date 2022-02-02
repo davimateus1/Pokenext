@@ -25,9 +25,9 @@ export async function getStaticProps() {
 export default function Home({ pokemons }) {
   return (
     <>
-     <Head>
-            <link rel="shortcurt icon" href="/images/favicon.ico" />
-                <title>PokeNext</title>
+      <Head>
+        <link rel="shortcurt icon" href="/images/favicon.ico" />
+        <title>PokeNext</title>
       </Head>
       <div className={styles.title_container}>
         <h1 className={styles.title}>
@@ -42,7 +42,7 @@ export default function Home({ pokemons }) {
       </div>
       <div className={styles.pokemons_container}>
         {pokemons.map((pokemon) => (
-          <Card key={pokemon.id} pokemon={pokemon}/>
+          <Card key={pokemon.id} pokemon={pokemon} />
         ))}
       </div>
     </>

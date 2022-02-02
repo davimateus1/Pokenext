@@ -18,7 +18,13 @@ export default function ErrorPage() {
           Erro <span>404</span>
         </h1>
         <h3>Essa página não existe :(</h3>
-        <Image src={fainted} className={styles.fainted} width="280" height="200" alt="fainted image" />
+        <Image
+          src={fainted}
+          className={styles.fainted}
+          width="280"
+          height="200"
+          alt="fainted image"
+        />
         <Link href="/">
           <a className={styles.btn}>Página Inicial</a>
         </Link>
