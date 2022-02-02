@@ -14,40 +14,39 @@ function Contact() {
       <section className={styles.contact_container}>
         <h1>Contato</h1>
         <p>
-          <SiGmail />{" "}
+          <SiGmail />
           <a href="mailto:davimateusga@gmail.com"> davimateusga@gmail.com </a>
         </p>
         <p>
-          <BsWhatsapp />{" "}
+          <BsWhatsapp />
           <a
             href="https://api.whatsapp.com/send?phone=5587988476864&text=Enviar%20mensagem%20para%20Davi%20Mateus"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
-            (87) 98847-6864{" "}
+            (87) 98847-6864
           </a>
         </p>
         <p>
-          <BsInstagram />{" "}
+          <BsInstagram />
           <a
             href="https://www.instagram.com/davimateus1"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
-            @davimateus1{" "}
+            
+            @davimateus1
           </a>
         </p>
         <p>
-          <BsLinkedin />{" "}
+          <BsLinkedin />
           <a
             href="https://www.linkedin.com/in/davimateusg/"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
-            /davimateusg{" "}
+            
+            /davimateusg
           </a>
         </p>
       </section>
